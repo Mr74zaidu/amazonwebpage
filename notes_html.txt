@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hello wordl! </h1>
+</body> 
+
+<big> to kaise he aap log </big>  <!--big fonts-->
+
+
+<hr> <!--horizontal line -->
+
+
+<small> good</small>   <!--small fonts -->
+<p>CH<sub>3</sub></p> <!--sub ye tag html me koi bhi font ko niche chota likhne me help krta he jaise ham chemistry me fomulas likhte he -->
+
+
+<p> 2<sup>3</sup>9=</p> <!-- ye basicly koi bhi no ko upar power me likhne me kam ata he form example maths me diye gaye numbers par lagaye gye powers -->
+
+
+<pre> A distinct                        division of written or printed
+     matter that begins on a new, usually indented 
+     line, consists of one or more sentences,
+      and typically deals with a single thought or 
+      topic or quotes one speaker's continuous words </pre> <!-- this tag is use for using space in paragraph our accordings -->
+       
+
+      <a href="https://www.youtube.com" targeet="_main">  <!-- rarget="_main" ye kisi bhi website ko new page me open krane ke liye usefull hota he --> </a> youtube </a>   <!-- this is used to link one page to another page one website to another website -->
+      
+
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fr1v3QIY.jpg&f=1&nofb=1&ipt=6f189d24ff65fe8e20e2544c3ee7985f17343518b0a5cef6c73929929482b963&ipo=images" height="100" width="100" alt="rose">
+      <!-- this is used for image adding -->
+      
+
+      <a href src="https://www.google.com/"> <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fwebsite-png-world-wide-web-png-pic-1300.png&f=1&nofb=1&ipt=db6a2cda244b737f838d7415503d3fb691bbfa75cc39e62704e482e9f0e2eaa4&ipo=images" alt="facebook" height="100">  </a>
+      <!-- agar ham ese image tag ko ancle tag me use krte he to iski help se ham image ko button ke jaise use kr skte he agar ham image pr click krenge to wo website pr chle jayenge jis ka link ancle tag me dya hoga -->
+
+
+      <!-- inside main tag -->
+      <!-- section tag : for a section on your page -->
+      <section> </section>
+      <!-- artigle tag : for an article on your page -->
+      <article> </article>
+      <!-- aside tag : for conten aside main content(ads) -->
+      <aside> </aside>
+      <header>
+
+
+
+        <!-- this is use for heading  -->
+      </header>
+      <main> <!-- this is used for bich section --> </main>
+      <footer> <!-- this is used for last section --> </footer>
+      <!--  header,main,footer ye tino body me use hote he inka kam hota he website ke ranking me elp krna -->
+
+
+      <div> <!--this is a block element there is not special work. isko ham koi bhi tag ke saath use kar skte he,or isko information likhne or paragrapf likhne me bhi use krte he jaise ham example:
+        <div>
+            <p> hello world </p>
+        </div>--> </div>
+
+
+        <!-- list data -->
+        <!--
+            3 types of list 
+            1. order list 
+            2.unorder list 
+            3. nested list 
+
+            1.order list : is me ham numbers use krte he 
+            2. unorder list : is me ham number ki jagah square,circle,tringle use krte he 
+            3. nestes list : is list me ham dono ko mila kar likh skte he order list bhi or unorder list nhi order or unorder list ki
+             or uko kaise likhte he uski example niche diye gye he
+        -->
+        <ol><!--for order list--> </ol>
+        <ul> <!--for unorder list --> </ul>
+        
+        <ol> delhi </ol>             
+        <ul> mumbai</ul>
+
+
+        <table>
+            <caption> information <!--this is used in table tag--> </caption>
+            <tr>
+            <th>Name <!-- isko ham head me use krte he jaise ke table me hota he name roll no etc --> </th>
+            <th>  Roll No  </th>
+            </tr>
+
+            
+
+            <tr>
+                <td> hasib  <!-- isko ham table ke body me use hota he jaise ke niche diye gye name or roll no etc--> </td>
+                <td> 1202 </td>
+            </tr>
+        </table>
+        <thead>
+             <!-- jaise html me head or body hota he usi tarha table tag me thead hota he -->
+         </thead>
+
+        <tbody>
+          <!-- jaise html me head or body hota he usi tarha table tag me thead hota he -->
+        </tbody>
+
+
+       <!-- how to use radio buttons -->
+        <form>
+            <p> select your class </p>
+            <label for="101">
+            <input type="radio" value="XIth" name="class" id="101"> class XIth
+            </label>
+            <!-- lebel tag besicly kisi button per click krne me hep krta he agar buttuon ke thoda side me bhi click hoo jaye to button pr click ho jaye -->
+            <label for="102">
+                            <input type="radio" value="XIIth" name="class" id="102"> class XIIth
+                            </label>
+        
+        <!-- check box -->
+        <h3> select your subjects </h3>
+        <input type="checkbox" value="bio" name="biology" id="101">                boloogy
+         <input type="checkbox" value="che" name="chemistry" id="102">              chemistry
+         <input type="checkbox" value="phy" name="physics" id="103">                physics
+         <input type="checkbox" value="eng" name="engish" id="104">                 english
+         <input type="checkbox" value="geog" name="geography" id="105">             Geography
+         <input type="checkbox" value="IT" name="Information technology" id="106">  Information technology
+       <br><br>
+
+       <h3> select your city </h3>
+      <select value="cities">
+        <option value="mumbai"> mumbai</option>
+        <option value="delhi"> delhi</option>
+        <option value="jaipur"> jaipur</option>
+        <option value="banglore"> banglore</option>
+        <option value="nasik"> jalgaon</option>
+        <option value="ahamdabad"> ahamdabad</option>
+        <option value="aurangabad"> aurangabad</option>
+        <option value="agra"> agra</option>
+        <option value="patna"> patna</option>
+              </select>
+              <br><br>
+
+       <!-- for Feedback -->
+         <textarea rows="5" type="text" id="109" name="feedback" placeholder="enter your important feedback">
+            </textarea>
+        </form> <br><br>
+
+
+        <!-- iframe basicly use run one website in second website internally -->
+        <iframe src="https://www.wikipedia.org/" height="315" width="560" name="wikipedia web "> wikipedia </iframe>
+         <br><br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=s8d4qlUjxZHADcbj" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <video width="640" height="360" controls>
+            <source src="example.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+  
+         </html>    

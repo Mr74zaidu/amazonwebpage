@@ -1,0 +1,172 @@
+<POSITION>
+{position:fixed} 
+<!-- isko ham kisi bhi chiz ko kahi pr fixed krne ke liye use krte he ye browser ke according jagah change krti he  -->
+
+{position:relative;}
+<!-- isko ham normal jagah change kr skte he kisi div ya element ki or isme agr iski jagah ko change krte he to khud ki jagah se utna change hoga jitna usko diya hua he khud ke according Example: -->
+{position:relativ;}
+top:25px;
+
+{position:absolute;}
+<!-- isko ham kisi element ko 1 dusra ke upar over lap krne ke liye use krte he ye apne parrent ke according apni jagah ko change krta he -->
+
+{position:sticky;}
+top:100px
+<!-- iska use ham kisi element ko fixed krne ke liye krte he but waha se jaha se usko diya gya ho ye additional he -->
+<IMPORTANT> <!-- agar ham 1 element ko dusre element ke upar over lap karate he to hamesa 1st element ke upar hi 2nd element aata he mtlb ye k hamesha 1st element niche side me chup jata he or isiko ham Z index ki help se control kr skte he hame jisko upar lana ho usko z-index me 0 se upar ka no dede Example: mujhe b ko upar lana he -->
+z-index:1; <!-- iski help se ham b ko upar lekr aaskte he -->
+
+
+
+<BACKGROUND IMAGE>
+background-image: url("enter your url") <!-- this is used for background image -->
+
+<nsplash.com> { ye website se ham free ke best or premium images download kr skte he }
+
+(BACKGROUND SIZE) <!-- jab hambackgroundimages ka use krte he to image choti hone ki wajah se 4 se 5 baar chote ho k screen pr phel jati he is liye ham background size ka use krte he backgroud size me 3 properties hoti he EXAMPLE: -->
+backgroud-size:cover; <!-- iska use kr k ham puri jagah me image ko set kr skte he -->
+backgroud-size:contain; <!-- isme image choti hokr element me aati he or jo jagah bach jati he waha pr img double repeat hoti he -->
+backgroud-size:auto; <!-- isme auto hota he mtlb jitna image aapayega utna hi aayega -->
+
+
+<flexbox-direction>
+    display:flex;
+(flexbox-direction:row;) <!-- isme ham left se right ke side chizo ko kr skte he -->
+(flexbox-direction:row-reverse;) <!-- isme ham chizo ko right se left ke side kr skte he -->
+(flexbox-direction:column;) <!-- isme ham chizo ko top se bottom ke side kr skte he -->
+(flexbox-direction:column-reverse;) <!-- isme ham chizo ko bottom se top ke side kr skte he -->
+
+(justify-content) <!-- isko ham chizo ki jagah change krne ke liye kr skte he -->
+(jistify-content:flex-start) <!-- iski help se ham chizo ko left se start kr k right me khtm kr skte he but start starting se hogi or end se pahle khtm hogi -->
+(jistify-content:flex-end) <!-- iski help se ham chizo ko start to left se hi krenge but right ke ending me khtm hoga -->
+(jistify-content:flex-evenly) <!-- iski help se ham chizo ke bich me equal space de skte he  -->
+(jistify-content:center)  <!-- iski help se ham chizo ko center me la skte he -->
+
+(align-items:center) <!-- iski help se ham kisi bhi chiz ko center me le ja skte he left,right,top,bottom charo side se equal space me gap hoga -->
+
+
+
+<Media Queries>
+    @media (width : 600px) {
+        div {
+            background-color:pink;
+        }
+    }
+    <!-- iski help se ham ye kr skte he k jaise he screen ki width 600px pr aaye waise hi background color red ho jaye nahi 1ox chota or nahi 1px bada -->
+
+    @media (width : 400px) {
+        div {
+            background-color:red;
+        }
+    }
+    <!-- iski help se ham ye kr skte he k jiase he width 600px ke upar jaayegi waise hi background color red ho jayega -->
+
+    @media (max-width : 200px) {
+        div {
+            background-color: yellow;
+        }
+    }
+    <!-- iski help se ham ye kr skte he k jaise hi width 200px ke niche aaye waise hi div ka background color yellow ho jyga -->
+
+@media (min-width:200px)and(max-width:400px){
+    div {
+        background-color:black;
+    }
+}
+<!-- iski help se ham range set kr skte he k 200px se 400px ke bich me width aaye to background color black ho jyga -->
+
+
+
+<transition>
+    div:hover {
+        background-color:red;
+    }
+    <!-- isme hoga ye k aap jaise hi cursle ko dic ke upar le rk jaoge waise hi div ka color change ho kr red ho jyga -->
+
+
+    div:active {
+        background-color:pink;
+    }
+    <!-- jab bhi div ke upr cursle lekr jaye or jab tk div pr click rkhe tb tk color change rhega -->
+
+
+    transition-property:all;
+    transition-duration:2s;
+    <!-- isi help se ham timing set kr skte he jaise me yaha 2s diya he iska mtlb 2second ke andar me iska background color ya text color jo bhi diya ho wo change ho 2second me  -->
+
+
+    transition-timing-function:steps(5);
+    <!-- iski help se ham change kr skte he jaise transition-duration me krte the bs isme frk itna he k isme steps me hota he jitna steps ham denge -->
+
+
+    transition-timing-function:ease-in;
+    <!-- iski help se ham changing ko pahle dhire phir speed me perform kr skte he -->
+    
+    
+    transition-timing-function: ease-out;
+    <!-- sab same he but ye speed me hota he direct speed me start hota he -->
+
+
+    transition-delay: 1s;
+    <!-- iski help se jitna time ham denge utna let change hoga jaise mene 1sec ka time upar diya he to 1sec baad change hona start hoga  -->
+
+
+    transition: all       2s        ease-in-out            0.2s;
+     (property name)   (delay)       (timing function)   (duration)    
+     <!--iski help se ham charo ko 1 line me hi likh skte he -->
+
+
+     <transform>
+        transform:rotate(45deg);
+        <!-- iski help se ham kisi bhi chiz ko rotate kr skte he jitna bhi rotate krna he itna deg se pahle likh do bs wo utna rotate ho jyga -->
+
+
+        transform:scale(2);
+        <!-- iski help se ham chizo ko badha skte he jitna % badhana he itna no. bracket me likh do -->
+
+
+        transform:scale(1,2);
+        <!-- iski help se ham chizo ko badha skte he jaise k 1,2 he iska mtlb 1,2 agar x axes ko badhana chate he yani ke pahle wala to height badh jayegi or agar dusre wale mtlb y axis ko badhaye to width badh jayegi -->
+
+        transform:translateX(50px);
+        <!-- iski help se ham chizo ki ki jagah change kr skte he jitna change krna he utna bracket me dal do or jidhar side krna he udhar side agar right side krna he to ese or agar left side krna he to no se pahle -(minus) lga do Example:-->
+        transform:translateX(-50px) 
+
+        transform:translateY(50px);
+        <!--isi tarha agr niche krna ho to -->
+
+         transform:translateY(-50)
+             <!-- agar upar krna hoto -->
+             
+             transform:skew(30deg);
+    <!-- iski animation se esa lgta he jaise ham ne dono side se pakad kr khinch diya ho -->
+
+
+
+    <animation>
+        @keyframe myName {
+            from  {font-size : 20px; }
+             to {font-size : 40px; }
+        }
+        <!-- iski help se animation deside kr skte he jaise kitne time hona chahiye or kya hona chahiye etx. or iske kuch prperties he jo k nichediye gye he -->
+  animation-name;
+  animation-duration;
+  animation-timing-function;
+  animation-delay;
+animation-iteration-count; <!-- iski help se perform kitne time hona chahiye wo set kr skte he  -->
+animation-direction; 
+    
+<!-- or in sab ko ham 1 line me bhi likh skte he Example: -->
+animation: myName       2s            linear              3s          infinity         normal
+            |            |               |                 |              |               |
+     animation name    duration      timing function      delay      itration count    direction
+
+<!-- agar bich me kuch add krna hoto uke liye ham percentage me bhi keyframe ko likh skte he Example:-->
+     0% {}
+     10%{}
+     50%{}
+    100% {}
+    
+
+
+        
