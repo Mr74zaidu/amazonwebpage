@@ -1,0 +1,55 @@
+body {
+    background-color:  rgba(217, 137, 248,0.55);
+   background-size: cover;
+}
+#container {
+    background-color: rgba(153, 0, 255, 0.55);
+    height: 550px;
+    width: 425px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+    box-shadow: blueviolet
+    5px 5px 10px 0 ;
+}
+h1 {
+   color: white;
+   font-size: 35px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 50px;
+   text-align: center;
+}
+.inputbox {
+    background-color: white;
+    padding:7px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: black
+    5px 5px 5px 0;
+    margin-left: 8px;
+    margin-right: 0px;
+}
+.inputbox2 {
+    background-color: white;
+    padding:7px;
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    width: 360px;
+    box-shadow: black
+    5px 5px 5px 0;
+}
+#checkbox {
+    color: white;
+}
+button {
+    background-color: grey;
+    width: 325px;
+    border-radius: 15px;
+    height: 30px;
+    box-shadow: black
+    5px 5px 5px 0;
+}
