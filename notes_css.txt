@@ -169,4 +169,14 @@ animation: myName       2s            linear              3s          infinity  
     
 
 
-        
+      <!-- Change cursor to pointer -->
+    cursor:pointer;
+
+
+    <!-- Gradian color in body -->
+    body {
+        background: linear-gradient(#78A083, #50727B);
+        height: 100vh;
+        overflow: hidden;
+     }
+       
